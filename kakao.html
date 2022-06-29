@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./CSS/kakao.css">
+<style>
+   
+</style>
+<html>
+
+<body>
+    <div class="body">
+        <div class="slidebar">
+            <div id="content1">
+                <button title="친구"></button>
+                <button title="그리"></button>
+                <button></button>
+            </div>
+            <div id="content3">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+
+        </div>
+        <div id="content2">
+            <h2>친구</h2>
+            <div class="profile">
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/seok.png);"
+                    onclick="profiles()">
+                <div class="message">
+                    &nbsp;&nbsp;<b>석이</b><br>&nbsp;&nbsp;<span>말리지마</span>
+                </div>
+                <div class="music" >
+                    <span onclick="melon(this)" title="하루하루" >
+                        하루하루 - 빅뱅
+                    </span>
+                </div>
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;생일인 친구
+            </span>
+            <div class="profile2">
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/birth.png); ">
+                &nbsp;&nbsp;<b>친구의 생일을 확인해보세요!</b>&nbsp;&nbsp;3
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp; &nbsp;&nbsp;채널
+            </span>
+            <div class="profile2">
+
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/chanel.png);">
+                &nbsp;&nbsp;<b>채널</b>&nbsp;&nbsp;11
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp; &nbsp;&nbsp;친구
+            </span>
+
+            <div class="profile">
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/default.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>김강희</b><br>&nbsp;&nbsp;<span>고독하구만</span>
+                </div>
+                <div class="music">
+                    <span onclick="melon(this)" title="Ibiza">
+                        Ibiza - tyga
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/kimhyo.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>김효원</b><br>&nbsp;&nbsp;<span>행복하세요</span>
+                </div>
+                <div class="music">
+                    <span onclick="melon(this)" title="그리워그리워">
+                        그리워그리워 - 노을
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/kwon.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>권성수</b><br>&nbsp;&nbsp;<span>헬창의길..</span>
+                </div>
+                <div class="music" onclick="melon(this)" title="we here 2">
+                    <span>
+                        we here 2 - 일리네어 레코즈
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/parkdo.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>박도희</b><br>&nbsp;&nbsp;<span>여행가쟈!</span>
+                </div>
+                <div class="music" onclick="melon(this)" title="안녕 나야">
+                    <span>
+                        안녕나야 - 포맨
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/parkki.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>박기중</b><br>&nbsp;&nbsp;<span>자유롭고 싶다..</span>
+                </div>
+                <div class="music"onclick="melon(this)" title="어쩌라고">
+                    <span>
+                        어쩌라고 - 슈퍼키드
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/default.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>박유진</b><br>&nbsp;&nbsp;<span>여자친구 사귀고 싶다...</span>
+                </div>
+                <div class="music" onclick="melon(this)" title="대화">
+                    <span>
+                        대화 - MC스나이퍼
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/ok.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>옥경욱</b><br>&nbsp;&nbsp;<span>연애하니까 좋더랔ㅋ</span>
+                </div>
+                <div class="music" onclick="melon(this)" title="사랑인걸">
+                    <span>
+                        사랑인걸 - 모세
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/chea.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>채은지</b><br>&nbsp;&nbsp;<span>오늘도 킹받는다</span>
+                </div>
+                <div class="music"  onclick="melon(this)" title="범퍼카">
+                    <span>
+                        범퍼카 - 한요한
+                    </span>
+                </div>
+            </div>
+            <div class="profile">
+                <br>
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/choi.png);">
+                <div class="message">
+                    &nbsp;&nbsp;<b>최대혁</b><br>&nbsp;&nbsp;<span>인생이란.. 무엇인가</span>
+                </div>
+                <div class="music"  onclick="melon(this)" title="신촌을못가">
+                    <span>
+                        신촌을못가 - 포스트맨
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+<script>
+    function profiles() {
+        // window.open("kakao2.html", "상세보기", "width=350,height=600,left=100,top=50");
+       var modal = document.getElementById("modal");
+       modal.style.display = "";
+    }
+    function closing(){
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
+    }
+    function melon(el){
+       switch(el.title){
+        case "하루하루": window.open("https://www.melon.com/search/total/index.htm?q=%ED%95%98%EB%A3%A8%ED%95%98%EB%A3%A8&section=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "Ibiza":  window.open("https://www.melon.com/search/total/index.htm?q=Ibiza+-+tyga&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "그리워그리워":  window.open("https://www.melon.com/search/total/index.htm?q=%EA%B7%B8%EB%A6%AC%EC%9B%8C+%EA%B7%B8%EB%A6%AC%EC%9B%8C+%EB%85%B8%EC%9D%84&section=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "we here 2":  window.open("https://www.melon.com/search/total/index.htm?q=we+here+2&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "안녕 나야":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%95%88%EB%85%95%EB%82%98%EC%95%BC+%ED%8F%AC%EB%A7%A8&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "대화":  window.open("https://www.melon.com/search/total/index.htm?q=%EB%8C%80%ED%99%94+mc%EC%8A%A4%EB%82%98%EC%9D%B4%ED%8D%BC&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "사랑인걸":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%82%AC%EB%9E%91%EC%9D%B8%EA%B1%B8+%EB%AA%A8%EC%84%B8&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "범퍼카":  window.open("https://www.melon.com/search/total/index.htm?q=%EB%B2%94%ED%8D%BC%EC%B9%B4+%ED%95%9C%EC%9A%94%ED%95%9C&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "신촌을못가":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%8B%A0%EC%B4%8C%EC%9D%84+%EB%AA%BB%EA%B0%80&section=&mwkLogType=T"); break;
+       }
+    //    if(a == 1)
+    //     window.open("https://www.melon.com/search/total/index.htm?q=%ED%95%98%EB%A3%A8%ED%95%98%EB%A3%A8&section=&mwkLogType=T");
+    //     if(a == 2){
+    //         window.open("https://www.melon.com/search/total/index.htm?q=Ibiza+-+tyga&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T");
+    //     }
+    }
+</script>
+<script src="./js/kakao.js">
+</script>
+<div id="modal" style="display: none;">
+    <div class="content">
+        
+            <div class="profiles">
+                <div class="profilephoto">
+                </div>
+    
+                <div class="profilename">
+                    <span class="profilename">석이</span>
+                </div>
+                <div class="profilename1">
+                   말리지마
+                </div>
+              <br>
+             
+         
+           
+            </div>
+            
+            <div id="close" onclick="closing()">
+                
+            </div>
+    </div>
+</div>
+</body>
+
+</html>
