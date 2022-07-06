@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./CSS/kakao.css">
+<style>
+   
+</style>
+<html>
+
+<body>
+    <div class="body">
+        <div class="slidebar">
+            <div id="content1">
+                <button title="친구"></button>
+                <button title="그리"></button>
+                <button></button>
+            </div>
+            <div id="content3">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+
+        </div>
+        <div id="content2">
+            <h2>친구</h2>
+            <div class="profile_mine" >
+                
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;생일인 친구
+            </span>
+            <div class="profile2">
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/birth.png); ">
+                &nbsp;&nbsp;<b>친구의 생일을 확인해보세요!</b>&nbsp;&nbsp;3
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp; &nbsp;&nbsp;채널
+            </span>
+            <div class="profile2">
+
+                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/chanel.png);">
+                &nbsp;&nbsp;<b>채널</b>&nbsp;&nbsp;11
+            </div>
+            <hr>
+            <span>
+                &nbsp;&nbsp; &nbsp;&nbsp;친구
+            </span>
+            <div class="group_friends">
+               
+        </div>
+        </div>
+    
+<script>
+ 
+    function closing(){
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
+    }
+    function melon(el){
+       switch(el.title){
+        case "하루하루": window.open("https://www.melon.com/search/total/index.htm?q=%ED%95%98%EB%A3%A8%ED%95%98%EB%A3%A8&section=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "Ibiza":  window.open("https://www.melon.com/search/total/index.htm?q=Ibiza+-+tyga&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "그리워그리워":  window.open("https://www.melon.com/search/total/index.htm?q=%EA%B7%B8%EB%A6%AC%EC%9B%8C+%EA%B7%B8%EB%A6%AC%EC%9B%8C+%EB%85%B8%EC%9D%84&section=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "we here 2":  window.open("https://www.melon.com/search/total/index.htm?q=we+here+2&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "안녕 나야":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%95%88%EB%85%95%EB%82%98%EC%95%BC+%ED%8F%AC%EB%A7%A8&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "대화":  window.open("https://www.melon.com/search/total/index.htm?q=%EB%8C%80%ED%99%94+mc%EC%8A%A4%EB%82%98%EC%9D%B4%ED%8D%BC&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "사랑인걸":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%82%AC%EB%9E%91%EC%9D%B8%EA%B1%B8+%EB%AA%A8%EC%84%B8&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "범퍼카":  window.open("https://www.melon.com/search/total/index.htm?q=%EB%B2%94%ED%8D%BC%EC%B9%B4+%ED%95%9C%EC%9A%94%ED%95%9C&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T"); break;
+       }
+       switch(el.title){
+        case "신촌을못가":  window.open("https://www.melon.com/search/total/index.htm?q=%EC%8B%A0%EC%B4%8C%EC%9D%84+%EB%AA%BB%EA%B0%80&section=&mwkLogType=T"); break;
+       }
+    //    if(a == 1)
+    //     window.open("https://www.melon.com/search/total/index.htm?q=%ED%95%98%EB%A3%A8%ED%95%98%EB%A3%A8&section=&mwkLogType=T");
+    //     if(a == 2){
+    //         window.open("https://www.melon.com/search/total/index.htm?q=Ibiza+-+tyga&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T");
+    //     }
+    }
+  
+</script>
+<div id="modal" style="display: none;">
+    <div class="content" >
+      <button id="close_btn" >X</button>
+      <div class="profile">
+        <div class="profile_img"></div>
+        <span class="profile_name" id="name"></span>
+        <span class="profile_name" id="message"></span>
+      </div>
+      <div class="action">
+        <div>
+          <div class="chat_icon"></div>
+          <span>1:1 채팅</span>
+        </div>
+        <div>
+          <div class="call_icon"></div>
+          <span>통화하기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/kakao.js">
+  </script>
+</body>
+
+</html>

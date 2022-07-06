@@ -22,15 +22,15 @@
         </div>
         <div id="content2">
             <h2>친구</h2>
-            <div class="profile">
-                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/seok.png);"
-                    onclick="profiles()">
+            <div class="profile_mine" >
+                <input type="button" class="button" value=" " 
+                    id="bt1" >
                 <div class="message">
-                    &nbsp;&nbsp;<b>석이</b><br>&nbsp;&nbsp;<span>말리지마</span>
+                    &nbsp;&nbsp;<b></b><br>&nbsp;&nbsp;<span></span>
                 </div>
                 <div class="music" >
                     <span onclick="melon(this)" title="하루하루" >
-                        하루하루 - 빅뱅
+                        
                     </span>
                 </div>
             </div>
@@ -55,15 +55,15 @@
             <span>
                 &nbsp;&nbsp; &nbsp;&nbsp;친구
             </span>
-
+            <div class="group_friends">
             <div class="profile">
-                <input type="button" class="button" value=" " style="background-image:url(CSS/IMG/default.png);">
+                <input type="button" id="bt2"class="button" value=" "  >
                 <div class="message">
-                    &nbsp;&nbsp;<b>김강희</b><br>&nbsp;&nbsp;<span>고독하구만</span>
+                    &nbsp;&nbsp;<b></b><br>&nbsp;&nbsp;<span></span>
                 </div>
                 <div class="music">
                     <span onclick="melon(this)" title="Ibiza">
-                        Ibiza - tyga
+                        
                     </span>
                 </div>
             </div>
@@ -164,13 +164,23 @@
                 </div>
             </div>
         </div>
+        </div>
     
 <script>
-    function profiles() {
-        // window.open("kakao2.html", "상세보기", "width=350,height=600,left=100,top=50");
-       var modal = document.getElementById("modal");
-       modal.style.display = "";
-    }
+    // function profiles() {
+    //     // window.open("kakao2.html", "상세보기", "width=350,height=600,left=100,top=50");
+    //    var modal = document.getElementById("modal");
+    //    var background = document.getElementById("background");
+    //    var bt1 = document.getElementById("bt1");
+    //    var bt2 = document.getElementById("bt2");
+    //    modal.style.display = "";
+    //    if(bt1){
+    //     background.style.backgroundImage = 'url("/CSS/IMG/cover1.jpg")';
+    // }
+    // if(bt2){
+    //     background.style.backgroundImage = 'url("/CSS/IMG/cover2.png")';
+    // }
+    // }
     function closing(){
         var modal = document.getElementById("modal");
         modal.style.display = "none";
@@ -209,33 +219,30 @@
     //         window.open("https://www.melon.com/search/total/index.htm?q=Ibiza+-+tyga&section=&searchGnbYn=Y&kkoSpl=Y&kkoDpType=&mwkLogType=T");
     //     }
     }
+  
 </script>
-<script src="./js/kakao.js">
+<!-- <script src="./js/kakao.js"> -->
 </script>
 <div id="modal" style="display: none;">
-    <div class="content">
-        
-            <div class="profiles">
-                <div class="profilephoto">
-                </div>
-    
-                <div class="profilename">
-                    <span class="profilename">석이</span>
-                </div>
-                <div class="profilename1">
-                   말리지마
-                </div>
-              <br>
-             
-         
-           
-            </div>
-            
-            <div id="close" onclick="closing()">
-                
-            </div>
+    <div class="content" id="background">
+      <button id="close_btn" onclick="closing()">X</button>
+      <div class="profile">
+        <div class="profile_img"></div>
+        <span class="profile_name">석이</span>
+        <span class="profile_name">말리지마</span>
+      </div>
+      <div class="action">
+        <div>
+          <div class="chat_icon"></div>
+          <span>1:1 채팅</span>
+        </div>
+        <div>
+          <div class="call_icon"></div>
+          <span>통화하기</span>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 
 </html>
